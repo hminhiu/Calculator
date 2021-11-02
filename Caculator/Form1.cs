@@ -25,5 +25,14 @@ namespace Caculator
             ketQua = a + b;
             txtketqua.Text = ketQua.ToString();
         }
+
+        private void bt(object sender, EventArgs e)
+        {
+            int a, b, ketQua;
+            a = int.Parse(txtso1.Text);
+            b = int.Parse(txtso2.Text);
+            ketQua = a - b;
+            txtketqua.Text = ketQua.ToString();
+        }
     }
 }
