@@ -17,6 +17,13 @@ namespace Caculator
             InitializeComponent();
         }
 
-      
+        private void btcong_Click(object sender, EventArgs e)
+        {
+            int a, b, ketQua;
+            a = int.Parse(txtso1.Text);
+            b = int.Parse(txtso2.Text);
+            ketQua = a + b;
+            txtketqua.Text = ketQua.ToString();
+        }
     }
 }

@@ -35,7 +35,7 @@
             this.lbso2 = new System.Windows.Forms.Label();
             this.txtso2 = new System.Windows.Forms.TextBox();
             this.lbketqua = new System.Windows.Forms.Label();
-            this.txtso3 = new System.Windows.Forms.TextBox();
+            this.txtketqua = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btcong
@@ -46,6 +46,7 @@
             this.btcong.TabIndex = 0;
             this.btcong.Text = "+";
             this.btcong.UseVisualStyleBackColor = true;
+            this.btcong.Click += new System.EventHandler(this.btcong_Click);
             // 
             // label1
             // 
@@ -74,7 +75,6 @@
             this.txtso1.Name = "txtso1";
             this.txtso1.Size = new System.Drawing.Size(248, 20);
             this.txtso1.TabIndex = 2;
-         
             // 
             // lbso2
             // 
@@ -84,7 +84,6 @@
             this.lbso2.Size = new System.Drawing.Size(47, 13);
             this.lbso2.TabIndex = 1;
             this.lbso2.Text = "So thu 2";
-        
             // 
             // txtso2
             // 
@@ -92,7 +91,6 @@
             this.txtso2.Name = "txtso2";
             this.txtso2.Size = new System.Drawing.Size(248, 20);
             this.txtso2.TabIndex = 2;
-           
             // 
             // lbketqua
             // 
@@ -102,22 +100,20 @@
             this.lbketqua.Size = new System.Drawing.Size(44, 13);
             this.lbketqua.TabIndex = 1;
             this.lbketqua.Text = "Ket qua";
-          
             // 
-            // txtso3
+            // txtketqua
             // 
-            this.txtso3.Location = new System.Drawing.Point(137, 143);
-            this.txtso3.Name = "txtso3";
-            this.txtso3.Size = new System.Drawing.Size(248, 20);
-            this.txtso3.TabIndex = 2;
-          
+            this.txtketqua.Location = new System.Drawing.Point(137, 143);
+            this.txtketqua.Name = "txtketqua";
+            this.txtketqua.Size = new System.Drawing.Size(248, 20);
+            this.txtketqua.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(460, 261);
-            this.Controls.Add(this.txtso3);
+            this.Controls.Add(this.txtketqua);
             this.Controls.Add(this.txtso2);
             this.Controls.Add(this.txtso1);
             this.Controls.Add(this.lbketqua);
@@ -141,7 +137,7 @@
         private System.Windows.Forms.Label lbso2;
         private System.Windows.Forms.TextBox txtso2;
         private System.Windows.Forms.Label lbketqua;
-        private System.Windows.Forms.TextBox txtso3;
+        private System.Windows.Forms.TextBox txtketqua;
     }
 }
 
